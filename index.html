@@ -12,7 +12,7 @@
 
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Arjuman Sreashtho — Full-stack software engineer">
-  <meta property="og:description" content="React, C#/.NET, Node.js and PostgreSQL. Six years of web apps across FinTech, e-commerce and real estate.">
+  <meta property="og:description" content="Follow the path from Khulna University to full-stack engineering: React, C#/.NET, Node.js and PostgreSQL.">
   <meta property="og:url" content="https://arjumansreashtho.github.io/">
   <meta property="og:image" content="https://arjumansreashtho.github.io/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -44,152 +44,170 @@
   <a class="skip" href="#main">Skip to content</a>
 
   <header class="nav">
-    <a class="nav-mark" href="index.html" aria-label="Arjuman Sreashtho, home">
+    <a class="nav-mark" href="#top" aria-label="Arjuman Sreashtho, back to the start">
       <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><use href="#mark"/></svg>
       <span>Arjuman Sreashtho</span>
     </a>
-    <nav aria-label="Sections">
-      <a href="#work">Work</a>
-      <a href="#contests">Contests</a>
-      <a href="#apps">Apps</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <a class="nav-cta" href="#next">Contact</a>
+    <div class="progress" aria-hidden="true"><span></span></div>
   </header>
 
+  <nav class="rail" aria-label="Journey">
+    <ol>
+      <li><a href="#start"><span class="rail-dot"></span><span class="rail-text">2016 <em>Start</em></span></a></li>
+      <li><a href="#contests"><span class="rail-dot"></span><span class="rail-text">2017 <em>Contests</em></span></a></li>
+      <li><a href="#work"><span class="rail-dot"></span><span class="rail-text">2020 <em>Work</em></span></a></li>
+      <li><a href="#stack"><span class="rail-dot"></span><span class="rail-text">Today <em>Stack</em></span></a></li>
+      <li><a href="#next"><span class="rail-dot"></span><span class="rail-text">Next <em>Contact</em></span></a></li>
+    </ol>
+  </nav>
+
   <main id="main">
-    <section class="hero" aria-labelledby="name" data-figure="graph">
-      <div class="hero-space" aria-hidden="true"></div>
-
-      <div class="hero-text">
-        <h1 id="name"><span>Arjuman</span> <span>Sreashtho</span></h1>
-        <p class="lede">Full-stack software engineer in Dhaka. I build web apps and progressive web apps with React, C#/.NET and Node.js on PostgreSQL, and have shipped them for FinTech, e-commerce, real estate and inventory teams since 2020.</p>
-        <p class="actions">
-          <a class="btn btn-solid" href="mailto:arjumansreashtho@gmail.com">Email me</a>
-          <a class="btn" href="https://github.com/ArjumanSreashtho" rel="me noopener" target="_blank">GitHub</a>
-        </p>
-      </div>
-
-      <div class="graph-panel">
-        <fieldset class="algo">
-          <legend class="sr-only">Search algorithm</legend>
-          <label><input type="radio" name="algo" value="bfs" checked><span>BFS</span></label>
-          <label><input type="radio" name="algo" value="dfs"><span>DFS</span></label>
-          <label><input type="radio" name="algo" value="dijkstra"><span>Dijkstra</span></label>
-        </fieldset>
-        <button type="button" class="link-btn" id="graph-random">Start from a random node</button>
-        <p class="graph-hint">Or click any node to search from it.</p>
-        <p class="graph-status" id="graph-status" aria-live="polite"></p>
+    <!-- Prologue -->
+    <section class="chapter prologue" id="top" data-figure="graph" style="--len: 150" aria-labelledby="name">
+      <div class="pin">
+        <div class="hero-text">
+          <h1 id="name"><span>Arjuman</span> <span>Sreashtho</span></h1>
+          <p class="lede">Full-stack software engineer in Dhaka. I build web apps and progressive web apps with React, C#/.NET and Node.js on PostgreSQL.</p>
+          <p class="actions">
+            <a class="btn btn-solid" href="mailto:arjumansreashtho@gmail.com">Email me</a>
+            <a class="btn" href="https://github.com/ArjumanSreashtho" rel="me noopener" target="_blank">GitHub</a>
+          </p>
+        </div>
+        <p class="cue"><span class="cue-line" aria-hidden="true"></span>Scroll to follow the path from 2016 to today</p>
       </div>
     </section>
 
-    <section class="block" id="about" aria-labelledby="about-h" data-figure="stack">
-      <h2 id="about-h">About</h2>
-      <div class="block-body prose">
-        <p>I work across the whole stack: React on the front end, C#/.NET or Node.js APIs behind it, and PostgreSQL underneath. Most recently I spent over two years at WellDev, a Switzerland-based software company, building progressive web apps for real estate property management.</p>
-        <p>Before that I studied computer science at Khulna University and spent a lot of time in programming contests, including the ACM ICPC Dhaka Regional in 2017 and 2018. That habit of checking edge cases and complexity before writing code has stayed with me.</p>
-        <p class="open">Open to remote full-stack roles and freelance projects.</p>
+    <!-- 1. Start -->
+    <section class="chapter" id="start" data-figure="tree" style="--len: 210" aria-labelledby="start-h">
+      <div class="pin">
+        <div class="panel">
+          <p class="year" data-at="0">2016</p>
+          <h2 id="start-h" data-at="0.08">Where the path starts</h2>
+          <p data-at="0.28">I began a BSc in Computer Science and Engineering at Khulna University in 2016 and graduated in 2021.</p>
+          <p data-at="0.5">It is where I learned the algorithms behind every figure on this page, like the breadth-first search tree on the right.</p>
+          <p class="fig" data-at="0.7">Figure 2. A breadth-first search tree, one ring per level.</p>
+        </div>
       </div>
     </section>
 
-    <section class="block" id="work" aria-labelledby="work-h" data-figure="helix">
-      <h2 id="work-h">Work</h2>
-      <ol class="block-body timeline">
-        <li class="current">
-          <p class="when"><time datetime="2024-07">Jul 2024</time> to <time datetime="2026-10">Oct 2026</time></p>
-          <h3>Software Engineer, WellDev Bangladesh</h3>
-          <p>Full-stack development of progressive web apps for real estate property management, for a Switzerland-based software company with global clients. React features on the front end, C#/.NET APIs, PostgreSQL. Delivered features on my own and alongside the wider team.</p>
-        </li>
-        <li>
-          <p class="when"><time datetime="2022-12">Dec 2022</time> to <time datetime="2024-06">Jun 2024</time></p>
-          <h3>Junior Software Engineer, WellDev Bangladesh</h3>
-          <p>Started with bug fixing and troubleshooting across the codebase, then moved on to building features.</p>
-        </li>
-        <li>
-          <p class="when"><time datetime="2021-07">Jul 2021</time> to <time datetime="2022-12">Dec 2022</time></p>
-          <h3>Software Engineer, Soft Tech Innovation, Dhaka</h3>
-          <p>Customer-facing e-commerce apps in React, and web portals for payment systems in React and Node.js, at the FinTech company behind the aamarPay payment gateway.</p>
-        </li>
-        <li>
-          <p class="when"><time datetime="2020-10">Oct 2020</time> to <time datetime="2021-06">Jun 2021</time></p>
-          <h3>Software Developer, Semicolon IT Solutions, Jashore</h3>
-          <p>Full-stack apps in Node.js and React, including a merchandise inventory management system for clients.</p>
-        </li>
-      </ol>
-    </section>
-
-    <section class="block" id="contests" aria-labelledby="contests-h" data-figure="sphere">
-      <h2 id="contests-h">Competitive programming</h2>
-      <div class="block-body">
-        <p class="big-line"><strong data-count>700+</strong> problems solved across online judges, and 40+ online contests.</p>
-        <ul class="facts">
-          <li>ACM ICPC Dhaka Regional, 2017 and 2018</li>
-          <li>56th place, DIU ACM ICPC Contest 2018</li>
-          <li>5 national and regional onsite contests</li>
-        </ul>
-        <table class="judges">
-          <caption class="sr-only">Online judge profiles</caption>
-          <thead><tr><th scope="col">Judge</th><th scope="col">Handle</th><th scope="col">Best</th></tr></thead>
-          <tbody>
-            <tr><td>Codeforces</td><td><a href="https://codeforces.com/profile/John_Player" target="_blank" rel="noopener">John_Player</a></td><td>1394 max rating</td></tr>
-            <tr><td>CodeChef</td><td><a href="https://www.codechef.com/users/john_player" target="_blank" rel="noopener">john_player</a></td><td>1465 max rating</td></tr>
-            <tr><td>UVa Online Judge</td><td>John_Player</td><td>World rank 3662</td></tr>
-          </tbody>
-        </table>
+    <!-- 2. Contests -->
+    <section class="chapter" id="contests" data-figure="sphere" style="--len: 230" aria-labelledby="contests-h">
+      <div class="pin">
+        <div class="panel">
+          <p class="year" data-at="0">2017 to 2018</p>
+          <h2 id="contests-h" data-at="0.06"><span class="count" data-count>700+</span> problems solved</h2>
+          <p data-at="0.2">Alongside my degree I competed in programming contests, onsite and online.</p>
+          <ul class="facts">
+            <li data-at="0.32">ACM ICPC Dhaka Regional, 2017 and 2018</li>
+            <li data-at="0.42">56th place, DIU ACM ICPC Contest 2018</li>
+            <li data-at="0.52">5 national and regional onsite contests, 40+ online contests</li>
+          </ul>
+          <table class="judges" data-at="0.64">
+            <caption class="sr-only">Online judge profiles</caption>
+            <thead><tr><th scope="col">Judge</th><th scope="col">Handle</th><th scope="col">Best</th></tr></thead>
+            <tbody>
+              <tr><td>Codeforces</td><td><a href="https://codeforces.com/profile/John_Player" target="_blank" rel="noopener">John_Player</a></td><td>1394 rating</td></tr>
+              <tr><td>CodeChef</td><td><a href="https://www.codechef.com/users/john_player" target="_blank" rel="noopener">john_player</a></td><td>1465 rating</td></tr>
+              <tr><td>UVa</td><td>John_Player</td><td>World rank 3662</td></tr>
+            </tbody>
+          </table>
+          <p class="fig" data-at="0.78">Figure 3. One point for each solved problem.</p>
+        </div>
       </div>
     </section>
 
-    <section class="block" id="skills" aria-labelledby="skills-h" data-figure="clusters">
-      <h2 id="skills-h">Skills</h2>
-      <dl class="block-body skills">
-        <div><dt>Languages</dt><dd>C#, C/C++, JavaScript</dd></div>
-        <div><dt>Frameworks</dt><dd>.NET Core, React, Node.js</dd></div>
-        <div><dt>Databases</dt><dd>PostgreSQL, MongoDB</dd></div>
-        <div><dt>Built</dt><dd>Progressive web apps, REST APIs, payment portals, inventory systems</dd></div>
-      </dl>
-    </section>
-
-    <section class="block" id="education" aria-labelledby="education-h" data-figure="tree">
-      <h2 id="education-h">Education</h2>
-      <div class="block-body">
-        <h3>BSc in Computer Science and Engineering</h3>
-        <p>Khulna University, Bangladesh, 2016 to 2021</p>
+    <!-- 3. Work: four roles, pinned, one at a time -->
+    <section class="chapter work" id="work" data-figure="helix" style="--len: 440" aria-labelledby="work-h">
+      <div class="pin">
+        <div class="panel">
+          <h2 id="work-h" data-at="0">Four roles, one path</h2>
+          <ol class="roles">
+            <li data-step="0">
+              <p class="year">Oct 2020 to Jun 2021</p>
+              <h3>Software Developer, Semicolon IT Solutions, Jashore</h3>
+              <p>My first job. Full-stack apps in Node.js and React, including a merchandise inventory management system for clients.</p>
+            </li>
+            <li data-step="1">
+              <p class="year">Jul 2021 to Dec 2022</p>
+              <h3>Software Engineer, Soft Tech Innovation, Dhaka</h3>
+              <p>Customer-facing e-commerce apps in React, and web portals for payment systems in React and Node.js, at the FinTech company behind the aamarPay payment gateway.</p>
+            </li>
+            <li data-step="2">
+              <p class="year">Dec 2022 to Jun 2024</p>
+              <h3>Junior Software Engineer, WellDev Bangladesh</h3>
+              <p>Started with bug fixing and troubleshooting across the codebase, then moved on to building features.</p>
+            </li>
+            <li data-step="3">
+              <p class="year">Jul 2024 to Oct 2026</p>
+              <h3>Software Engineer, WellDev Bangladesh</h3>
+              <p>Progressive web apps for real estate property management, for a Switzerland-based software company: React on the front end, C#/.NET APIs, PostgreSQL. Delivered features on my own and with the wider team.</p>
+            </li>
+          </ol>
+          <ol class="role-steps" aria-hidden="true">
+            <li data-step-mark="0">Semicolon IT</li>
+            <li data-step-mark="1">Soft Tech</li>
+            <li data-step-mark="2">WellDev</li>
+            <li data-step-mark="3">WellDev</li>
+          </ol>
+          <p class="fig" data-at="0">Figure 4. The path climbs one node per role.</p>
+        </div>
       </div>
     </section>
 
-    <section class="block" id="apps" aria-labelledby="apps-h" data-figure="graph">
-      <h2 id="apps-h">Apps</h2>
-      <div class="block-body">
-        <ul class="apps">
-          <!--
-            Add one <li> per published app. Copy this block, fill it in, and remove the "empty" item below.
-          <li class="app">
-            <img src="assets/img/my-app-icon.png" alt="" width="64" height="64">
-            <div>
-              <h3>App name</h3>
-              <p>One sentence about what the app does.</p>
-              <p class="app-links">
-                <a href="https://play.google.com/store/apps/details?id=com.example.app">Get it on Google Play</a>
-                <a href="privacy.html">Privacy policy</a>
-              </p>
+    <!-- 4. Stack -->
+    <section class="chapter" id="stack" data-figure="stack" style="--len: 210" aria-labelledby="stack-h">
+      <div class="pin">
+        <div class="panel">
+          <p class="year" data-at="0">Today</p>
+          <h2 id="stack-h" data-at="0.08">Three layers I work across</h2>
+          <dl class="skills">
+            <div data-at="0.25"><dt>Browser</dt><dd>React, progressive web apps</dd></div>
+            <div data-at="0.38"><dt>APIs</dt><dd>C#/.NET Core, Node.js</dd></div>
+            <div data-at="0.51"><dt>Data</dt><dd>PostgreSQL, MongoDB</dd></div>
+            <div data-at="0.64"><dt>Languages</dt><dd>C#, C/C++, JavaScript</dd></div>
+          </dl>
+          <p class="fig" data-at="0.76">Figure 5. The stack, from the browser down to the database.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Next: finale -->
+    <section class="chapter finale" id="next" data-figure="graph" style="--len: 190" aria-labelledby="next-h">
+      <div class="pin">
+        <div class="panel">
+          <p class="year" data-at="0">Next</p>
+          <h2 id="next-h" data-at="0.06">Where the path goes next</h2>
+          <p data-at="0.18">I'm open to remote full-stack roles and freelance projects, and I'm publishing my first Android apps on Google Play.</p>
+          <p class="contact-mail" data-at="0.3"><a href="mailto:arjumansreashtho@gmail.com">arjumansreashtho@gmail.com</a></p>
+          <p class="contact-meta" data-at="0.36">Dhaka, Bangladesh &nbsp;/&nbsp; <a href="https://github.com/ArjumanSreashtho" rel="me noopener" target="_blank">github.com/ArjumanSreashtho</a></p>
+
+          <div class="apps" id="apps" data-at="0.46">
+            <!--
+              Add one <div class="app"> per published app:
+            <div class="app">
+              <img src="assets/img/my-app-icon.png" alt="" width="56" height="56">
+              <div>
+                <h3>App name</h3>
+                <p>One sentence about what the app does.</p>
+                <p class="app-links"><a href="https://play.google.com/store/apps/details?id=com.example.app">Get it on Google Play</a> <a href="privacy.html">Privacy policy</a></p>
+              </div>
             </div>
-          </li>
-          -->
-          <li class="app-empty">
-            <p>My first Android apps are on the way. Each one will be listed here with its Google Play link and privacy policy.</p>
-          </li>
-        </ul>
-        <p><a href="privacy.html">Read the privacy policy for my apps</a></p>
-      </div>
-    </section>
+            -->
+            <p class="app-empty">My apps will be listed here with their Google Play links. <a href="privacy.html">Privacy policy for my apps</a></p>
+          </div>
 
-    <section class="block contact" id="contact" aria-labelledby="contact-h" data-figure="graph">
-      <h2 id="contact-h">Contact</h2>
-      <div class="block-body">
-        <p class="contact-mail"><a href="mailto:arjumansreashtho@gmail.com">arjumansreashtho@gmail.com</a></p>
-        <dl class="contact-list">
-          <div><dt>Location</dt><dd>Dhaka, Bangladesh</dd></div>
-          <div><dt>Code</dt><dd><a href="https://github.com/ArjumanSreashtho" rel="me noopener" target="_blank">github.com/ArjumanSreashtho</a></dd></div>
-        </dl>
+          <div class="search" data-at="0.56">
+            <fieldset class="algo">
+              <legend class="sr-only">Search algorithm</legend>
+              <label><input type="radio" name="algo" value="bfs" checked><span>BFS</span></label>
+              <label><input type="radio" name="algo" value="dfs"><span>DFS</span></label>
+              <label><input type="radio" name="algo" value="dijkstra"><span>Dijkstra</span></label>
+            </fieldset>
+            <button type="button" class="link-btn" id="graph-random">Search from a random node</button>
+            <p class="graph-status" id="graph-status" aria-live="polite">Click any node in the graph to search from it.</p>
+          </div>
+        </div>
       </div>
     </section>
   </main>
